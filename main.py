@@ -5,7 +5,7 @@ import requests
 
 import os
 from lyzr import VoiceBot
-vb = VoiceBot(api_key="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")
+vb = VoiceBot(api_key=os.environ.get("API_KEY"))
 
 
 
